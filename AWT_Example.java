@@ -8,90 +8,90 @@ import java.awt.event.WindowEvent;
 public class AWT_Example {
     public static void main(String[] args)
     {
-        Button button_test = new Button("0");
-        button_test.setForeground(Color.black);
-        button_test.setBackground(Color.white);
-        button_test.setBounds(0, 0, 50, 50);
+        Button button_zero = new Button("0");
+        button_zero.setForeground(Color.black);
+        button_zero.setBackground(Color.white);
+        button_zero.setBounds(0, 0, 50, 50);
 
-         Button button_test1 = new Button("1");
-         button_test1.setForeground(Color.black);
-         button_test1.setBackground(Color.white);
-         button_test1.setBounds(50, 0, 50, 50);
+         Button button_one = new Button("1");
+         button_one.setForeground(Color.black);
+         button_one.setBackground(Color.white);
+         button_one.setBounds(50, 0, 50, 50);
 
-        Button button_test2 = new Button("2");
-        button_test2.setForeground(Color.black);
-        button_test2.setBackground(Color.white);
-        button_test2.setBounds(100, 0, 50, 50);
+        Button button_two = new Button("2");
+        button_two.setForeground(Color.black);
+        button_two.setBackground(Color.white);
+        button_two.setBounds(100, 0, 50, 50);
 
-        Button button_test3 = new Button("3");
-        button_test3.setForeground(Color.black);
-        button_test3.setBackground(Color.white);
-        button_test3.setBounds(0, 50, 50, 50);
+        Button button_three = new Button("3");
+        button_three.setForeground(Color.black);
+        button_three.setBackground(Color.white);
+        button_three.setBounds(0, 50, 50, 50);
 
-        Button button_test4 = new Button("4");
-        button_test4.setForeground(Color.black);
-        button_test4.setBackground(Color.white);
-        button_test4.setBounds(50, 50, 50, 50);
+        Button button_four = new Button("4");
+        button_four.setForeground(Color.black);
+        button_four.setBackground(Color.white);
+        button_four.setBounds(50, 50, 50, 50);
 
-        Button button_test5 = new Button("5");
-        button_test5.setForeground(Color.black);
-        button_test5.setBackground(Color.white);
-        button_test5.setBounds(100, 50, 50, 50);
+        Button button_five = new Button("5");
+        button_five.setForeground(Color.black);
+        button_five.setBackground(Color.white);
+        button_five.setBounds(100, 50, 50, 50);
 
-        Button button_test6 = new Button("6");
-        button_test6.setForeground(Color.black);
-        button_test6.setBackground(Color.white);
-        button_test6.setBounds(0, 100, 50, 50);
+        Button button_six = new Button("6");
+        button_six.setForeground(Color.black);
+        button_six.setBackground(Color.white);
+        button_six.setBounds(0, 100, 50, 50);
 
-        Button button_test7 = new Button("7");
-        button_test7.setForeground(Color.black);
-        button_test7.setBackground(Color.white);
-        button_test7.setBounds(50, 100, 50, 50);
+        Button button_seven = new Button("7");
+        button_seven.setForeground(Color.black);
+        button_seven.setBackground(Color.white);
+        button_seven.setBounds(50, 100, 50, 50);
 
-        Button button_test8 = new Button("8");
-        button_test8.setForeground(Color.black);
-        button_test8.setBackground(Color.white);
-        button_test8.setBounds(100, 100, 50, 50);
+        Button button_eight = new Button("8");
+        button_eight.setForeground(Color.black);
+        button_eight.setBackground(Color.white);
+        button_eight.setBounds(100, 100, 50, 50);
 
-        Button button_test9 = new Button("9");
-        button_test9.setForeground(Color.black);
-        button_test9.setBackground(Color.white);
-        button_test9.setBounds(0, 150, 50, 50);
+        Button button_nine = new Button("9");
+        button_nine.setForeground(Color.black);
+        button_nine.setBackground(Color.white);
+        button_nine.setBounds(0, 150, 50, 50);
 
-        Button button_test10 = new Button("*");
-        button_test10.setForeground(Color.black);
-        button_test10.setBackground(Color.white);
-        button_test10.setBounds(50, 150, 50, 50);
+        Button button_multiplicator = new Button("*");
+        button_multiplicator.setForeground(Color.black);
+        button_multiplicator.setBackground(Color.white);
+        button_multiplicator.setBounds(50, 150, 50, 50);
 
-        Button button_test11 = new Button("-");
-        button_test11.setForeground(Color.black);
-        button_test11.setBackground(Color.white);
-        button_test11.setBounds(100, 150, 50, 50);
+        Button button_substractor = new Button("-");
+        button_substractor.setForeground(Color.black);
+        button_substractor.setBackground(Color.white);
+        button_substractor.setBounds(100, 150, 50, 50);
 
-        Button button_test12 = new Button("+");
-        button_test12.setForeground(Color.black);
-        button_test12.setBackground(Color.white);
-        button_test12.setBounds(150, 150, 50, 50);
+        Button button_additionner = new Button("+");
+        button_additionner.setForeground(Color.black);
+        button_additionner.setBackground(Color.white);
+        button_additionner.setBounds(150, 150, 50, 50);
 
-        Button button_test13 = new Button("/");
-        button_test13.setForeground(Color.black);
-        button_test13.setBackground(Color.white);
-        button_test13.setBounds(0, 200, 50, 50);
+        Button button_divisor = new Button("/");
+        button_divisor.setForeground(Color.black);
+        button_divisor.setBackground(Color.white);
+        button_divisor.setBounds(0, 200, 50, 50);
 
-        Button button_test14 = new Button("=");
-        button_test14.setForeground(Color.black);
-        button_test14.setBackground(Color.white);
-        button_test14.setBounds(50, 200, 50, 50);
+        Button button_equalizer = new Button("=");
+        button_equalizer.setForeground(Color.black);
+        button_equalizer.setBackground(Color.white);
+        button_equalizer.setBounds(50, 200, 50, 50);
 
-        Button button_test15 = new Button("C");
-        button_test15.setForeground(Color.black);
-        button_test15.setBackground(Color.white);
-        button_test15.setBounds(100, 200, 50, 50);
+        Button button_clearer = new Button("C");
+        button_clearer.setForeground(Color.black);
+        button_clearer.setBackground(Color.white);
+        button_clearer.setBounds(100, 200, 50, 50);
 
-        Button button_test16 = new Button("Del");
-        button_test16.setForeground(Color.black);
-        button_test16.setBackground(Color.white);
-        button_test16.setBounds(150, 200, 50, 50);
+        Button button_deleter = new Button("Del");
+        button_deleter.setForeground(Color.black);
+        button_deleter.setBackground(Color.white);
+        button_deleter.setBounds(150, 200, 50, 50);
 
         Frame frame = new Frame("Basic Program");
         Label label = new Label("Hello World!");
@@ -101,36 +101,34 @@ public class AWT_Example {
         frame.setSize(1920, 1080);
         frame.setBackground(Color.black);
         frame.setVisible(true);
-        frame.add(button_test);
         frame.setLayout(null);
-        frame.add(button_test1);
-        frame.add(button_test2);
-        frame.add(button_test3);
-        frame.add(button_test4);
-        frame.add(button_test5);
-        frame.add(button_test6);
-        frame.add(button_test7);
-        frame.add(button_test8);
-        frame.add(button_test9);
-        frame.add(button_test10);
-        frame.add(button_test11);
-        frame.add(button_test12);
-        frame.add(button_test13);
-        frame.add(button_test14);
-        frame.add(button_test15);
-        frame.add(button_test16);
+        frame.add(button_additionner);
+        frame.add(button_clearer);
+        frame.add(button_deleter);
+        frame.add(button_divisor);
+        frame.add(button_equalizer);
+        frame.add(button_multiplicator);
+        frame.add(button_substractor);
+        frame.add(button_zero);
+        frame.add(button_one);
+        frame.add(button_two);
+        frame.add(button_three);
+        frame.add(button_four);
+        frame.add(button_five);
+        frame.add(button_six);
+        frame.add(button_seven);
+        frame.add(button_eight);
+        frame.add(button_nine);
         frame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e)
             {
+                frame.dispose();
                 System.exit(0);
             }
         });
-        button_test14.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e)
-            {
-                System.out.printf("%d\n", 123);
-            }
-        });
-    }
+        public void action_performed_on_button(ActionEvent action)
+        {
+
+        }
 }
