@@ -1,5 +1,7 @@
 import java.awt.*;  
-import java.awt.event.*;  
+import java.awt.event.*; 
+import java.awt.Font;
+
 class Calculator extends WindowAdapter implements ActionListener{ 
     Frame f; 
     Label l1;
@@ -13,49 +15,93 @@ Calculator()
     //Creating the frame and its componants
 
     f= new Frame("MY CALCULATOR");
-    l1=new Label(); 
+    l1=new Label();
+    Font newFont = new Font("Serif", Font.BOLD, 24);
+    l1.setFont(newFont);
+    f.setBackground(Color.black);
+
     l1.setBackground(Color.LIGHT_GRAY);
     l1.setBounds(50,50,260,60);
     b1=new Button("1");
+    b1.setForeground(Color.black);
+    b1.setBackground(Color.white);
     b1.setBounds(50,340,50,50);
     b2=new Button("2");
+    b2.setForeground(Color.black);
+    b2.setBackground(Color.white);
     b2.setBounds(120,340,50,50);
     b3=new Button("3");
+    b3.setForeground(Color.black);
+    b3.setBackground(Color.white);
     b3.setBounds(190,340,50,50);
     b4=new Button("4");
+    b4.setForeground(Color.black);
+    b4.setBackground(Color.white);
     b4.setBounds(50,270,50,50);
     b5=new Button("5");
+    b5.setForeground(Color.black);
+    b5.setBackground(Color.white);
     b5.setBounds(120,270,50,50); 
     b6=new Button("6");
+    b6.setForeground(Color.black);
+    b6.setBackground(Color.white);
     b6.setBounds(190,270,50,50);
     b7=new Button("7");
+    b7.setForeground(Color.black);
+    b7.setBackground(Color.white);
     b7.setBounds(50,200,50,50);
     b8=new Button("8");
+    b8.setForeground(Color.black);
+    b8.setBackground(Color.white);
     b8.setBounds(120,200,50,50);
     b9=new Button("9");
+    b9.setForeground(Color.black);
+    b9.setBackground(Color.white);
     b9.setBounds(190,200,50,50);
     b0=new Button("0");
+    b0.setForeground(Color.black);
+    b0.setBackground(Color.white);
     b0.setBounds(120,410,50,50);
     bneg=new Button("+/-");
+    bneg.setForeground(Color.black);
+    bneg.setBackground(Color.white);
     bneg.setBounds(50,410,50,50);
     bpts=new Button(".");
+    bpts.setForeground(Color.black);
+    bpts.setBackground(Color.white);
     bpts.setBounds(190,410,50,50);
     bback=new Button("back");
+    bback.setForeground(Color.black);
+    bback.setBackground(Color.white);
     bback.setBounds(120,130,50,50);
 
     badd=new Button("+");
+    badd.setForeground(Color.black);
+    badd.setBackground(Color.white);
     badd.setBounds(260,340,50,50);
     bsub=new Button("-");
+    bsub.setForeground(Color.black);
+    bsub.setBackground(Color.white);
     bsub.setBounds(260,270,50,50);
     bmult=new Button("*");
+    bmult.setForeground(Color.black);
+    bmult.setBackground(Color.white);
     bmult.setBounds(260,200,50,50);
     bdiv=new Button("/");
+    bdiv.setForeground(Color.black);
+    bdiv.setBackground(Color.white);
     bdiv.setBounds(260,130,50,50);
     bmod=new Button("%");
+    bmod.setForeground(Color.black);
+    bmod.setBackground(Color.white);
     bmod.setBounds(190,130,50,50);
     bcalc=new Button("=");
+    bcalc.setForeground(Color.black);
+    bcalc.setBackground(Color.white);
     bcalc.setBounds(245,410,65,50);
-    bclr=new Button("CE"); 
+    bclr=new Button("CE");
+    bclr.setForeground(Color.black);
+    bclr.setBackground(Color.white);
     bclr.setBounds(50,130,65,50);
 
     //Adding a listener for each componant of the frame for event handling.
